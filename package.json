@@ -16,7 +16,7 @@
     "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
-    "gh-pages": "^3.0.0"
+    "gh-pages": "^3.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -26,5 +26,5 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://shenoyaditya11.github.io/ReactProject"
+  "homepage": "https://shenoyaditya11.github.io/NQueenVisualizer"
 }

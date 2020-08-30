@@ -41,12 +41,13 @@
   background-color: rgb(97, 93, 93);
   display:flex;
   justify-content: center;
+  height: auto;
   width:auto;
 }
 .slider {
   -webkit-appearance: none;  /* Override default CSS styles */
   appearance: none;
-  width:30%; /* Full-width */
+  width:70%; /* Full-width */
   height: 1px ;/* Specified height */
   border-radius:15px;
   background: #d3d3d3; /* Grey background */

@@ -46,9 +46,12 @@ this.state={
 
    let val = document.getElementById("value").value;
    let speed = document.getElementById("speed").value;
+   speed = 1001 - speed; 
 
-   if(val > 8 || val < 0){
-     alert("Try N between 0 and 8");
+   console.log(speed);
+
+   if(val > 8 || val < 1){
+     alert("Try N between 1 and 8");
      return;
    }
 
@@ -178,6 +181,7 @@ this.state={
     let currCol  = currSolution.currCol;
     let cols = currSolution.cols;
 
+    currSolution.conflictCol = 0;
    
 
     this.setState({
@@ -365,6 +369,7 @@ this.state={
   sliderChanged(event){
 
     let speed = document.getElementById("speed").value;
+    speed = 1001 - speed;
     clearInterval(this.myVar);
     this.setState({
       running:false,
