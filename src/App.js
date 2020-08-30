@@ -429,9 +429,9 @@ this.state={
       <div className="body">
       <nav className="nav_bar">
 
-          <i style={{fontSize: "45px"}} class='fas'>&#xf445;</i>
+          <i style={{fontSize: window.innerWidth < 1000 ? "25px" : "45px"}} class='fas'>&#xf445;</i>
           <h2 className="texts"> N-Queens-Visualizer</h2>
-          <i style={{fontSize: "45px"}} class='fas'>&#xf445;</i>
+          <i style={{fontSize: window.innerWidth < 1000 ? "25px" : "45px"}} class='fas'>&#xf445;</i>
           
 
         </nav>
